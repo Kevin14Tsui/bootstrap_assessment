@@ -17,12 +17,12 @@
     <!-- Navbar -->
     <div class="row">
         <div class="col">
-            <nav class="navbar navbar-expand-lg bg-body-tertiary w-100 ">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary w-100">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#"><img src="./capstone_colmar_assets/images/ic-logo.svg">
                         <span class="text-dark fw-bold">COLMAR ACADEMY</span>
                     </a>
-                    <div class="collapse navbar-collapse">
+                    <div class="collapse navbar-collapse justify-content-end">
                         <div class="navbar-nav p-1">
                             <a class="nav-link " aria-current="page" href="#">On campus</a>
                             <a class="nav-link" href="#">Online</a>
@@ -35,16 +35,21 @@
         </div>
     </div>
     <!-- p1 -->
-    <div class="card  w-100 p-4" style="background-color: rgb(182, 180, 180);">
+    <div class="partonecard card w-100 p-4" style="background-color: rgb(182, 180, 180);">
         <div class="row g-0">
             <div class="col-md-7">
                 <img src="./capstone_colmar_assets/images/banner.jpg" class="img-fluid rounded-start" alt="...">
             </div>
             <div class="col-md-5">
-                <div class="card-body text-center">
-                    <h5 class="card-title ">Lean something new everday</h5>
-                    <p class="card-text">Lorme ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    <div class="button p-3 mb-2 bg-secondary text-white""">Start Here</div>
+                <div class="learncard card-body ">
+                    <h5 class="card-title fs-1">Lean something new everday</h5>
+                    <p class="card-text fs-4">Lorme ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <div class="card-text text-center">
+                        <div class="button p-3 mb-2 bg-secondary w-25 justify-content-center"><a href="#"
+                                class="text-decoration-none text-white">Start Here</a>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -52,9 +57,9 @@
     <!-- p2 -->
     <div class="row">
         <div class="card border border-0 p-3 mb-3 col-md-7 d-none d-sm-table-cell">
-            <img src="./capstone_colmar_assets/images/information-main.jpg" class="card-img-top w-100">
+            <img src="./capstone_colmar_assets/images/information-main.jpg" class="card-img-top">
             <div class="card-body">
-                <h1 class="card-title fw-bold">It doesn't hurt to keep practicing</h1>
+                <h1 class="card-title ">It doesn't hurt to keep practicing</h1>
                 <p class="card-text">"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo
                     lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget
                     magna laoreet, efficitur dolor consequat, tristique ligula."</p>
@@ -62,22 +67,26 @@
             </div>
         </div>
         <!-- 3picture -->
-        <div class="card border border-1 p-3 mb-3" style="max-width: 540px;">
+        <div class="cardset3 card border border-1 p-3 mb-3 col-md-5">
             <div class="row g-0">
                 <div class="col-md-4 mb-3">
                     <img src="./capstone_colmar_assets/images/information-orientation.jpg"
-                        class="img-fluid rounded-start" alt="...">
+                        class="image_full img-fluid rounded-start" alt="...">
+                    <img src="./capstone_colmar_assets/images/information-orientation-mobile.jpg" class="image_mobile">
+
                 </div>
                 <div class="col-md-8">
-                    <div class="card-body text-center">
+                    <div class="card-body">
                         <h5 class="card-title">Orientaion date</h5>
                         <p class="card-text">Tue 10/11 & Wed 10/12: 8am-3pm</p>
                         <p class="card-text"><a href="#" class="text-decoration-none">Read more</a></p>
                     </div>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <img src="./capstone_colmar_assets/images/information-campus.jpg" class="img-fluid rounded-start"
-                        alt="...">
+                    <img src="./capstone_colmar_assets/images/information-campus.jpg"
+                        class="image_full img-fluid rounded-start" alt="...">
+                    <img src="./capstone_colmar_assets/images/information-campus-mobile.jpg" class="image_mobile">
+
                 </div>
                 <div class="col-md-8">
                     <div class="card-body">
@@ -88,11 +97,14 @@
                 </div>
                 <div class="col-md-4 mb-3">
                     <img src="./capstone_colmar_assets/images/information-guest-lecture.jpg"
-                        class="img-fluid rounded-start" alt="...">
+                        class="image_full img-fluid rounded-start" alt="...">
+                    <img src="./capstone_colmar_assets/images/information-guest-lecture-mobile.jpg"
+                        class="image_mobile">
+
                 </div>
                 <div class="col-md-8">
                     <div class="card-body">
-                        <h5 class="card-title">Our guest lecture</h5>
+                        <h5 class="card-title">Special guest lecture</h5>
                         <p class="card-text">Jion a keynote with Oliver Sack about music in meddical treatment</p>
                         <p class="card-text"><a href="#" class="text-decoration-none">Read more</a></p>
                     </div>
@@ -100,6 +112,7 @@
             </div>
 
         </div>
+
     </div>
     <!-- p3 -->
     <div class="Strat learnin w-100" style="background-color: rgb(182, 180, 180);">
@@ -191,11 +204,10 @@
                     magna laoreet, efficitur dolor consequat, tristique ligula."</p>
             </div>
         </div>
-        <div class="card  border border-0 p-3 mb-3 d-none d-sm-table-cell" style="max-width: 540px;">
+        <div class="card  border border-0 p-3 mb-3 col-md-5 d-none d-sm-table-cell" style="max-width: 540px;">
             <div class="row g-0">
                 <div class="col-md-4 mb-3">
-                    <img src="./capstone_colmar_assets/images/thesis-fisma.jpg" alt="Trendy Pants and Shoes"
-                        class="img-fluid rounded-start" />
+                    <img src="./capstone_colmar_assets/images/thesis-fisma.jpg" class="img-fluid rounded-start" />
                 </div>
                 <div class="col-md-8">
                     <div class="card-body">
@@ -206,7 +218,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <img src="./capstone_colmar_assets/images/thesis-now-and-then.jpg" alt="Trendy Pants and Shoes"
+                    <img src="./capstone_colmar_assets/images/thesis-now-and-then.jpg"
                         class="img-fluid rounded-start" />
                 </div>
                 <div class="col-md-8">
@@ -222,6 +234,7 @@
 
     </div>
     <hr>
+    <!-- footer -->
     <footer class="mb-3">
         <p class="copyright">© 2016 Colmar Academy. All rights reserved</p>
         <span class="terms">

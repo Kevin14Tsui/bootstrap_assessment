@@ -6,7 +6,7 @@ body {
     background-color: #F4F4F4;
     color: #505050;
   }
-  
+
 /* navbra */
   nav {
     height: 64px;
@@ -14,7 +14,23 @@ body {
     justify-content: space-between;
     align-items: center;
   }
+/* card */
+.partonecard {
+    padding:32px 24px;
+}
 
+  .card-title{
+    font-weight: bold;
+  }
+  
+/* img */
+.image_full{
+    display:block;
+   }
+ 
+  .image_mobile{
+   display:none;
+  }
 /* footer */
 footer {
     display: flex;
@@ -31,13 +47,23 @@ footer {
     padding: 5px;
   }
 
-  @media only screen and (max-width: 600px) {
+
+  @media only screen and (max-width: 713px) {
     footer .terms
     ,hr {
       display: none;
     }
+
     footer {
         justify-content: center;
     }
-  }
-  
+    
+    .image_full{
+        display:none;
+       }
+     
+    .image_mobile{
+        display:block;
+        width: 100%; 
+       }
+    }
